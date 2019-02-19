@@ -76,4 +76,6 @@ Add-AzureRmNetworkSecurityRuleConfig -Name rdp-rule -Description "Allow RDP" -Ac
 #Start MSTSC with actual VM IP and user
 mstsc /v:$server:3389
 
+#Ask for user if want to quit and Shutdown VM
+
 #Shutdown the started VM
